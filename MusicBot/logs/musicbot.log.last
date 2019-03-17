@@ -1,0 +1,57 @@
+[18.949031830] 2019-03-17 22:08:04,772 - INFO - launcher: Starting sanity checks
+[18.949031830] 2019-03-17 22:08:04,772 - INFO - launcher: Checking for Python 3.5+
+[19.947528839] 2019-03-17 22:08:04,773 - INFO - launcher: Checking console encoding
+[19.947528839] 2019-03-17 22:08:04,773 - INFO - launcher: Setting console encoding to UTF-8
+[19.947528839] 2019-03-17 22:08:04,773 - INFO - launcher: Ensuring we're in the right environment
+[20.943880081] 2019-03-17 22:08:04,774 - INFO - launcher: Adding local bins/ folder to path
+[365.154266357] 2019-03-17 22:08:05,118 - INFO - launcher: Required checks passed.
+[366.122245789] 2019-03-17 22:08:05,119 - INFO - launcher: Optional checks passed.
+[366.122245789] 2019-03-17 22:08:05,119 - INFO - launcher: Moving old musicbot log
+
+######################### PRE-RUN SANITY CHECKS PASSED #########################
+
+[0.7421162128448486] 2019-03-17 22:08:05,495 - WARNING - musicbot.config | In config.py::MainThread(1128), line 116 in run_checks: i18n file does not exist. Trying to fallback to config/i18n/en.json.
+[0.7421162128448486] 2019-03-17 22:08:05,495 - INFO - musicbot.config | In config.py::MainThread(1128), line 127 in run_checks: Using i18n: config/i18n/en.json
+[0.7431132793426514] 2019-03-17 22:08:05,496 - DEBUG - musicbot.bot | In bot.py::MainThread(1128), line 226 in _setup_logging: Set logging level to INFO
+[0.7451081275939941] 2019-03-17 22:08:05,498 - DEBUG - musicbot.json | In json.py::MainThread(1128), line 8 in __init__: Init JSON obj with config/i18n/en.json
+[0.7581028938293457] 2019-03-17 22:08:05,511 - INFO - musicbot.bot | In bot.py::MainThread(1128), line 91 in __init__: Starting MusicBot 1.9.8_4
+[0.7590703964233398] 2019-03-17 22:08:05,512 - INFO - musicbot.bot | In bot.py::MainThread(1128), line 97 in __init__: Loaded autoplaylist with 1 entries
+[4.0260288715362549] 2019-03-17 22:08:08,779 - DEBUG - musicbot.bot | In bot.py::MainThread(1128), line 922 in on_ready: Connection established, ready to go.
+[4.0260288715362549] 2019-03-17 22:08:08,779 - DEBUG - musicbot.bot | In bot.py::MainThread(1128), line 340 in _cache_app_info: Caching app info
+[4.2061736583709717] 2019-03-17 22:08:08,959 - DEBUG - musicbot.bot | In bot.py::MainThread(1128), line 744 in _scheck_ensure_env: Ensuring data folders exist
+[4.2081711292266846] 2019-03-17 22:08:08,961 - DEBUG - musicbot.bot | In bot.py::MainThread(1128), line 754 in _scheck_ensure_env: Deleted old audio cache
+[4.2081711292266846] 2019-03-17 22:08:08,961 - DEBUG - musicbot.bot | In bot.py::MainThread(1128), line 760 in _scheck_server_permissions: Checking server permissions
+[4.2081711292266846] 2019-03-17 22:08:08,961 - DEBUG - musicbot.bot | In bot.py::MainThread(1128), line 764 in _scheck_autoplaylist: Auditing autoplaylist
+[4.2081711292266846] 2019-03-17 22:08:08,961 - DEBUG - musicbot.bot | In bot.py::MainThread(1128), line 768 in _scheck_configs: Validating config
+[4.2081711292266846] 2019-03-17 22:08:08,961 - DEBUG - musicbot.config | In config.py::MainThread(1128), line 217 in async_validate: Validating options...
+[4.2081711292266846] 2019-03-17 22:08:08,961 - DEBUG - musicbot.bot | In bot.py::MainThread(1128), line 771 in _scheck_configs: Validating permissions config
+[4.2081711292266846] 2019-03-17 22:08:08,961 - DEBUG - musicbot.permissions | In permissions.py::MainThread(1128), line 94 in async_validate: Validating permissions...
+[4.2081711292266846] 2019-03-17 22:08:08,961 - INFO - musicbot.bot | In bot.py::MainThread(1128), line 939 in on_ready: Connected: 470583576614666260/ArozziFM#8746
+[4.2094888687133789] 2019-03-17 22:08:08,962 - INFO - musicbot.bot | In bot.py::MainThread(1128), line 947 in on_ready: Owner:     288374086428655617/✪ TryHarderYT ᴬʳᵒᶻᶻᶦ#8917
+
+[4.2099990844726562] 2019-03-17 22:08:08,963 - INFO - musicbot.bot | In bot.py::MainThread(1128), line 950 in on_ready: Guild List:
+[4.2099990844726562] 2019-03-17 22:08:08,963 - INFO - musicbot.bot | In bot.py::MainThread(1128), line 954 in on_ready:  - 🎮 AROZZIOP
+[4.2109975814819336] 2019-03-17 22:08:08,964 - INFO - musicbot.bot | In bot.py::MainThread(1128), line 1010 in on_ready: Not bound to any text channels
+[4.2109975814819336] 2019-03-17 22:08:08,964 - INFO - musicbot.bot | In bot.py::MainThread(1128), line 1036 in on_ready: Not autojoining any voice channels
+[4.2109975814819336] 2019-03-17 22:08:08,964 - INFO - musicbot.bot | In bot.py::MainThread(1128), line 264 in _join_startup_channels: Found resumable voice channel 🎮 AROZZIOP/ArozziFM
+[4.2119956016540527] 2019-03-17 22:08:08,965 - INFO - musicbot.bot | In bot.py::MainThread(1128), line 270 in _join_startup_channels: Found owner in "ArozziFM"
+[4.2119956016540527] 2019-03-17 22:08:08,965 - INFO - musicbot.bot | In bot.py::MainThread(1128), line 279 in _join_startup_channels: Attempting to join 🎮 AROZZIOP/ArozziFM
+[5.7058029174804688] 2019-03-17 22:08:10,459 - DEBUG - musicbot.bot | In bot.py::MainThread(1128), line 704 in deserialize_queue: Deserializing queue for 407910632696840194
+[5.8523392677307129] 2019-03-17 22:08:10,605 - DEBUG - musicbot.bot | In bot.py::MainThread(1128), line 423 in get_player: Created player via deserialization for guild 407910632696840194 with 1 entries
+[5.8523392677307129] 2019-03-17 22:08:10,605 - INFO - musicbot.bot | In bot.py::MainThread(1128), line 295 in _join_startup_channels: Joined 🎮 AROZZIOP/ArozziFM
+[5.8533055782318115] 2019-03-17 22:08:10,606 - DEBUG - musicbot.entry | In entry.py::MainThread(1128), line 56 in get_ready_future: Created future for None
+[5.8533055782318115] 2019-03-17 22:08:10,606 - INFO - musicbot.entry | In entry.py::MainThread(1128), line 292 in _really_download: Download started: https://youtube.com/watch?v=qrBB3_rFPjg
+[8.3920505046844482] 2019-03-17 22:08:13,145 - INFO - musicbot.entry | In entry.py::MainThread(1128), line 302 in _really_download: Download complete: https://youtube.com/watch?v=qrBB3_rFPjg
+[8.3940725326538086] 2019-03-17 22:08:13,147 - FFMPEG - musicbot.player | In player.py::MainThread(1128), line 273 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-qrBB3_rFPjg-Undertale_OST_-_046_-_Spear_of_Justice.webm
+[8.3970656394958496] 2019-03-17 22:08:13,150 - DEBUG - musicbot.player | In player.py::MainThread(1128), line 284 in _play: Playing <discord.player.PCMVolumeTransformer object at 0x05E48630> using <discord.voice_client.VoiceClient object at 0x04730270>
+[8.3980464935302734] 2019-03-17 22:08:13,151 - DEBUG - musicbot.bot | In bot.py::MainThread(1128), line 458 in on_player_play: Running on_player_play
+[8.3980464935302734] 2019-03-17 22:08:13,151 - DEBUG - musicbot.bot | In bot.py::MainThread(1128), line 680 in serialize_queue: Serializing queue for 407910632696840194
+[36.8939936161041260] 2019-03-17 22:08:41,647 - INFO - musicbot.bot | In bot.py::MainThread(1128), line 2644 in on_message: 288374086428655617/✪ TryHarderYT ᴬʳᵒᶻᶻᶦ#8917: !play
+[44.0990571975708008] 2019-03-17 22:08:48,852 - INFO - musicbot.bot | In bot.py::MainThread(1128), line 2644 in on_message: 288374086428655617/✪ TryHarderYT ᴬʳᵒᶻᶻᶦ#8917: !play Fuck You EUROPE
+[44.3410325050354004] 2019-03-17 22:08:49,094 - DEBUG - musicbot.bot | In bot.py::MainThread(1128), line 1380 in cmd_play: {'_type': 'url', 'url': 'ytsearch:Fuck You EUROPE', 'ie_key': None, 'extractor': 'generic', 'webpage_url': 'Fuck You EUROPE', 'webpage_url_basename': 'Fuck You EUROPE', 'extractor_key': 'Generic'}
+[48.7189164161682129] 2019-03-17 22:08:53,472 - DEBUG - musicbot.entry | In entry.py::MainThread(1128), line 56 in get_ready_future: Created future for None
+[48.7199130058288574] 2019-03-17 22:08:53,473 - DEBUG - musicbot.bot | In bot.py::MainThread(1128), line 595 in on_player_entry_added: Running on_player_entry_added
+[48.7199130058288574] 2019-03-17 22:08:53,473 - DEBUG - musicbot.bot | In bot.py::MainThread(1128), line 680 in serialize_queue: Serializing queue for 407910632696840194
+[48.7238738536834717] 2019-03-17 22:08:53,477 - INFO - musicbot.entry | In entry.py::MainThread(1128), line 292 in _really_download: Download started: https://www.youtube.com/watch?v=3x4t_xJEchM
+[50.8010892868041992] 2019-03-17 22:08:55,554 - INFO - musicbot.entry | In entry.py::MainThread(1128), line 302 in _really_download: Download complete: https://www.youtube.com/watch?v=3x4t_xJEchM
+[64.0249445438385010] 2019-03-17 22:09:08,778 - INFO - musicbot.bot | In bot.py::MainThread(1128), line 2864 in on_voice_state_update: Pausing in 🎮 AROZZIOP/ArozziFM (empty channel)
